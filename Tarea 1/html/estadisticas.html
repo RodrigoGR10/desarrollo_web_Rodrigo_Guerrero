@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Huellas - Estadísticas</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <h1>Huellas</h1>
+    <a class="navbar-page" href="index.html">Portada</a>
+    <a class="navbar-page" href="agregar.html">Agregar aviso de adopción</a>
+    <a class="navbar-page" href="listado.html">Ver listado de adopciones</a>
+    <a class="navbar-page" href="estadisticas.html">Estadísticas</a>
+  </div>
+
+  <main>
+    <h2>Estadísticas</h2>
+
+    <div id="stats-area">
+      <h3>Estadísticas</h3>
+
+      <section>
+        <h4>Avisos por día </h4>
+        <img src="../Imagenes/grafico_lineas.png" alt="Gráfico de líneas - avisos por día">
+      </section>
+
+      <section>
+        <h5>Total avisos por tipo (torta)</h5>
+        <img src="../Imagenes/grafico_torta.png" alt="Gráfico de torta - avisos por tipo">
+      </section>
+
+      <section>
+        <h6>Avisos por mes (barras agrupadas)</h6>
+        <img src="../Imagenes/grafico_barras.png" alt="Gráfico de barras - avisos por mes">
+      </section>
+
+      <div>
+        <a class="navbar-page" href="index.html">Volver a la portada</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/sample_data.js"></script>
+  <script src="../js/estadisticas.js"></script>
+</body>
+</html>
